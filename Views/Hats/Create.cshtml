@@ -1,0 +1,8 @@
+@model Hats.Models.Hat
+
+<!-- asp-for or @Html-helper -->
+<form asp-action="Create">
+    <label asp-for="Color">Color: @Html.TextBoxFor(m=>m.Color)</label>
+    <label asp-for="Name">Name: @Html.TextBoxFor(m=>m.Name)</label>
+    <input type="submit" value="Create" class="btn btn-primary">
+</form>
