@@ -24,7 +24,14 @@ namespace Hats.Controllers
         [HttpPost]
         public IActionResult Create(Hat hat) { 
             // Later we want to save this to the database
-            return View("Thanks", hat);   
+            if (ModelState.IsValid) {
+                // Save to db
+                return View("Thanks", hat);   
+            } else {
+                return View(hat);
+            }
+
+            
         }
 
 

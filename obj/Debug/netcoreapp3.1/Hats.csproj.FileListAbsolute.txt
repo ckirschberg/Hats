@@ -36,3 +36,4 @@
 /Users/christiankirschberg/repos/school/Hats/obj/Debug/netcoreapp3.1/Hats.pdb
 /Users/christiankirschberg/repos/school/Hats/obj/Debug/netcoreapp3.1/Hats.genruntimeconfig.cache
 /Users/christiankirschberg/repos/school/Hats/obj/Debug/netcoreapp3.1/Hats.csproj.CopyComplete
+/Users/christiankirschberg/repos/school/Hats/obj/Debug/netcoreapp3.1/Razor/Views/Hats/Thanks.cshtml.g.cs
